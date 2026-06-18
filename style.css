@@ -806,6 +806,8 @@ footer h3{
         text-align: center;
     }
 }
+
+
 @media (max-width: 955px) {
   .about {
     flex-direction: column;
