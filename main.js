@@ -15,7 +15,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 0.3 // triggers when 30% of element is visible
+    threshold: 0.3 
 });
 
 boxes.forEach((box) => {
@@ -29,7 +29,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-// Close menu when a nav link is clicked
+
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', () => {
         navbar.classList.remove('active');
