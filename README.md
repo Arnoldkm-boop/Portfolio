@@ -37,9 +37,10 @@ This portfolio website was designed and built from scratch using pure HTML, CSS,
 
 ```
 Portfolio/
+├── assets/           # Images and other assets
 ├── index.html        # Main HTML file
-├── style.css         # All styles and responsive design
-└── script.js         # JavaScript for interactivity
+├── main.js           # JavaScript for interactivity
+└── style.css         # All styles and responsive design
 ```
 
 ---
